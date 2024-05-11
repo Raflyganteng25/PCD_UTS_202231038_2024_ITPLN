@@ -105,3 +105,6 @@ axs[1,1].imshow(binary4, cmap = 'binary')
 axs[1,1].set_title('RED-GREEN-BLUE')
 ```
 Program di atas mengubah citra yang telah diubah kecerahannya menjadi citra keabuan (grayscale) menggunakan fungsi cv2.cvtColor. Kemudian, dilakukan proses thresholding pada citra keabuan tersebut menggunakan beberapa nilai ambang yang berbeda. Setelah itu, citra hasil thresholding ditampilkan dalam subplot bersama dengan judul yang sesuai untuk setiap subplot. Thresholding digunakan untuk menghasilkan citra biner di mana piksel yang nilainya di atas ambang tertentu menjadi putih, sedangkan piksel di bawah ambang tersebut menjadi hitam. Program ini membantu dalam memahami efek pengaturan ambang pada hasil thresholding citra keabuan.
+
+teori pendukung https://docs.opencv.org/4.x/ <br>
+https://www.geeksforgeeks.org/
